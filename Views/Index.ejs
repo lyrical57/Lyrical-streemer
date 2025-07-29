@@ -1,0 +1,21 @@
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LYRICAL STREEMER</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>🎵 LYRICAL STREEMER 🎵</h1>
+  <a href="/upload">Upload Video</a>
+  <ul>
+    <% videos.forEach(file => { %>
+      <li><a href="/watch/<%= file %>"><%= file %></a></li>
+    <% }) %>
+  </ul>
+</body>
+</html>
+```
+
+Let me know if you need anything else!
