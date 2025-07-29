@@ -1,0 +1,48 @@
+
+```css
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #f0f0f0;
+  margin: 20px;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #1db954;
+}
+
+a {
+  color: #1db954;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+}
+
+button {
+  background: #1db954;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #17a34a;
+}
+```
+
+Place this as `style.css` inside your `public` folder.  
+Want me to send anything else?
